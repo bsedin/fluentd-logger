@@ -1,3 +1,3 @@
-FROM fluent/fluentd:v1.1.0-onbuild
+FROM fluent/fluentd:onbuild
 
 RUN gem install fluent-plugin-elasticsearch
